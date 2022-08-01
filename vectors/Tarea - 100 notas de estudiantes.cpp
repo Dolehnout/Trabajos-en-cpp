@@ -12,9 +12,9 @@ Usando vectores se pide:
 3) Calcular la sumatoria y el promedio 
 4) Encontrar la nota máxima 
 */
-int random() //Funciónp ara generar número aleatorio
+int random() //Función para generar número aleatorio
 {
-    int num =1+rand()%(300); //Genera un número aleatorio entre 1 y 20
+    int num =1+rand()%(300); //Genera un número aleatorio entre 1 y 300
     return num;
 }
 
