@@ -63,7 +63,7 @@ void swap(int &a, int &b)
 int main ()
 {   
     srand(time(NULL));  
-    const int TOTAL=100000; int vector[TOTAL];
+    const int TOTAL=100; int vector[TOTAL];
     cout<<endl<<"Iniciando";
 
     llenarVector(vector, TOTAL);
