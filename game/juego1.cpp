@@ -5,7 +5,7 @@
 using namespace std;
 
 
-int random()
+int numAle()
 {
     int num = 1+rand()%(20);
     return num;
@@ -22,7 +22,7 @@ void jugar(int oportunidades)
     
     //Para ingresar un número
     int num1; bool ganaste=false;
-    int num2=random();
+    int num2=numAle();
     //cout<<endl<<"Número aleatorio generado: "<<num2; //Para mostrar el número generado antes de pedir el número
 
     int j=0; //Para poner las oportunidades
