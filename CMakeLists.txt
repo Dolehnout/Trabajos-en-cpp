@@ -4,6 +4,9 @@ project(Calc VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
+file(GLOB TECPP_SRC
+    "./*/.cpp"
+)
 add_executable(Calc ./rekenmachines/rekenmachine.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
